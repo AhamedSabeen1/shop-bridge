@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body
+ {
+   padding-top: 60px;
+ }
+
+ footer {
+   padding-top: 30px;
+ }
+
+ input.ng-pristine, textarea.ng-pristine, select.ng-pristine {
+  background-color: lightblue;
+  }
+  input.ng-dirty, textarea.ng-dirty, select.ng-dirty, input.ng-touched, textarea.ng-touched, select.ng-touched {
+    background-color: pink;
+  }
+  input.ng-valid, textarea.ng-valid, select.ng-valid{
+    background-color: lightgreen! important;
+  }

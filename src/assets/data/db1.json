@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "Admin 2",
+      "category_id": 3,
+      "descriptions": "Descriptions for Second item",
+      "price": 500,
+      "is_available": true,
+      "rating": 5,
+      "review": 155,
+      "vendor_name": "ABC shop",
+      "warranty": "1 year"
+    },
+    {
+      "id": 3,
+      "title": "Admin 3",
+      "category_id": 1,
+      "descriptions": "Descriptions for Third item",
+      "price": 200,
+      "is_available": true,
+      "rating": 2,
+      "review": 3,
+      "vendor_name": "YYY shop",
+      "warranty": "1 year"
+    },
+    {
+      "id": 4,
+      "title": "Admin 4",
+      "category_id": 5,
+      "descriptions": "Descriptions for Fourth item",
+      "price": 500,
+      "is_available": true,
+      "rating": 1,
+      "review": 15,
+      "vendor_name": "ABCD shop",
+      "warranty": "1 year"
+    },
+    {
+      "id": 5,
+      "title": "Admin 4",
+      "category_id": 4,
+      "descriptions": "Descriptions for Fifth item",
+      "price": 500,
+      "is_available": true,
+      "rating": 1,
+      "review": 15,
+      "vendor_name": "ABCD shop",
+      "warranty": "1 year"
+    },
+    {
+      "id": 65,
+      "title": "Admin 6",
+      "category_id": 6,
+      "descriptions": "Descriptions for Sixth item",
+      "price": 500,
+      "is_available": true,
+      "rating": 1,
+      "review": 15,
+      "vendor_name": "ABCD shop",
+      "warranty": "1 year"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 2,
+      "categoryName": "Men"
+    },
+    {
+      "id": 3,
+      "categoryName": "Women"
+    },
+    {
+      "id": 4,
+      "categoryName": "Home & Furniture"
+    },
+    {
+      "id": 5,
+      "categoryName": "Baby & Kids"
+    }
+  ]
+}

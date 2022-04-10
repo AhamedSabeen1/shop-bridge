@@ -1,0 +1,29 @@
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+      <div class="row gx-4 gx-lg-5 align-items-center">
+          <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
+          <div class="col-md-6">
+              <h1 class="display-5 fw-bolder">{{productData.title}}::{{productID}}</h1>
+              <div class="fs-5 mb-5">
+                  <span>${{productData.price}}</span>
+              </div>
+              <p class="lead">{{productData.descriptions}}</p>
+              <div class="text-warning">{{productData.rating}} star</div>
+              <div class="fs-12">Sold by {{productData.vendor_name}}</div>
+              <div class="fs-12">Warranty:: {{productData.warranty}}</div>
+          </div>
+      </div>
+      <a href="products/update-product/{{productID}}">Update Product</a> |
+      <a href="products/delete-product/{{productID}}">Delete Product</a>
+      <div class="card card-outline-secondary my-4">
+        <div class="card-header">
+          Product Reviews ({{productData.review}})
+        </div>
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus urna quis nulla pellentesque aliquet. In vehicula magna sit amet orci hendrerit egestas. Vivamus fringilla erat eget ultrices rhoncus. Nunc erat enim, pharetra id pharetra vel, rutrum nec massa. Sed id quam porttitor, dignissim lectus sit amet, pellentesque est.</p>
+          <small class="text-muted">Posted by Anonymoud on 1/1/2021</small>
+
+        </div>
+      </div>
+  </div>
+</section>

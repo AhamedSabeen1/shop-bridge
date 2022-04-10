@@ -1,0 +1,5 @@
+<a href="products/list-product" class="list-group-item bg-dark text-white mt-5 p-1">View All Product</a>
+<a href="products/add" class="list-group-item bg-dark text-white mt-1 p-1">Add New Product</a>
+<div class="list-group" *ngFor="let category of categoryList">
+  <a href="products/category/{{category.id}}" class="list-group-item" >{{category.categoryName}}</a>
+</div>
